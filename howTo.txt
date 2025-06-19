@@ -2,7 +2,7 @@ prerequisite
 - node v22.15
 - yarn v1.22.22
 
-step
+setup project
 1. yarn init -y
 2. yarn add -D typescript ts-node
 3. yarn add -D prettier
@@ -55,3 +55,11 @@ step
 16. create file .env
 17. add script in package.json
 18. create file ./src/index.ts
+
+config git, huaky dan pre-commit
+1. yarn add -D husky pretty-quick
+2. add new script in package.json for husky
+3. execute command: 
+    yarn run prepare
+    echo "npm test" > .husky/pre-commit
+4. update file husky/pre-commit
