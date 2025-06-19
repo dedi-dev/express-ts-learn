@@ -63,3 +63,7 @@ config git, huaky dan pre-commit
     yarn run prepare
     echo "npm test" > .husky/pre-commit
 4. update file husky/pre-commit
+
+create routes, middleware and utils
+1. yarn add cors winston winston-daily-rotate-file
+2. yarn add -D @types/cors
